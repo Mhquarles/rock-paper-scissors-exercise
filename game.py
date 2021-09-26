@@ -1,4 +1,12 @@
 #game.py
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+x = os.getenv("PLAYER_NAME")
+print(x)
+
 import random
 
 print("Rock, Paper, Scissors, Shoot!")
