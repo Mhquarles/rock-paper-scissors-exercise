@@ -19,7 +19,7 @@ print(user_choice)
 
 #COMPUTER CHOICE AT RANDOM
 
-options = ["rock", "paper", "siccors"]
+options = ["rock", "paper", "scissors"]
 
 computer_choice = random.choice(options)
 print("Computer chose:")
